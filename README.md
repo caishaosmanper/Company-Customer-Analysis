@@ -22,7 +22,7 @@ This project analyzes customer subscription data to identify key sales trends, e
 # Executive Summary
 ***
 Subscription analysis of 1.18 million records across 2017-2022 reveals annual revenue averaging about 432 million annually with about annual subscriptions contributing 71% of sales. Business and Enterprise plans account for about 88 % of total revenue. Though customer retention is a concern as they have a churn rate of 39% and 49% respectively. The company can benefit from optimizing customer retention strategies and possibly creating loyalty programs to prolong customer loyalty, strengthen their market position and drive sustainable growth.   
-![ERD](Data/visualizations/erd_chart.jpeg)
+![ERD](visualizations/erd_chart.png)
 
 # North Star Metrics and Dataset Overview
 ***
@@ -43,22 +43,22 @@ Subscription analysis of 1.18 million records across 2017-2022 reveals annual re
 - Average Subscription Value (ASV) remains consistent year-round, with slight increases during peak months.
 		
 
-![Monthly Sales Visualization](Data/visualizations/sales_monthly_visual.jpeg)
+![Monthly Sales Visualization](visualizations/sales_monthly_visual.png)
 
 ## Product Performance
 
 - Basic Plans: Accounted for the majority of subscriptions (77% of total orders) but had the highest refund rate (77%), indicating lower customer retention. 
 - Business Plans: Contributed 32% of total sales, with a refund rate of 81%, highlighting challenges with customer retention despite strong revenue performance. 
 - Enterprise Plans: Demonstrated the lowest refund rate (18%) and the highest ASV ($3,500), showing strong customer loyalty and premium value. 
-![Product Sales Visualization](Data/visualizations/product_sub_visual.jpeg)
-![Subscription Sales Visualization](Data/visualizations/subscription_product_pie_visual.jpeg)
+![Product Sales Visualization](visualizations/product_sub_visual.png)
+![Subscription Sales Visualization](visualizations/subscription_product_pie_visual.jpg)
 
 ## Retention and Churn
 - Overall refund rates increased from 60% in 2017 to 98% in 2022, signalling a need for improved retention strategies.
 - Monthly subscriptions had higher churn rates compared to annual plans, particularly for Basic and Business products.
 - Enterprise plans showed the highest retention, with only 18% refund rates, underscoring their stability and appeal to long-term customers. 
 
-![Refund Rate Visualization](Data/visualizations/refund_rate_visual.jpeg)
+![Refund Rate Visualization](visualizations/refund_rate_visual.png)
 
 # Recommendations
 
